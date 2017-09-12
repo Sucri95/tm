@@ -1,0 +1,1594 @@
+@font-face {
+
+    font-family: 'bebas_neueregular';
+
+    src: url('../../fonts/bebasneue-webfont.woff2') format('woff2'),
+
+         url('../../fonts/bebasneue-webfont.woff') format('woff');
+
+    font-weight: normal;
+
+    font-style: normal;
+
+
+
+}
+
+
+
+*
+
+{
+
+	margin: 0;
+
+	padding: 0;
+
+}
+
+
+
+.top
+
+{
+
+	position: fixed;
+
+	width: 100%;
+
+	height: 70px;
+
+	background-color: #FFF;
+
+	z-index: 300;
+
+}
+
+
+
+.top .logo
+
+{
+
+	float: left;
+
+	margin-left: 50px;
+
+	margin-top: 15px;
+
+	height: 40px;
+
+}
+
+
+
+.top .menu
+
+{
+
+	float: right;
+
+	margin-right: 50px;
+
+	margin-top: 24px;
+
+	width: 652px;
+
+	height: 20px;
+
+	text-align: center;
+
+}
+
+
+
+.top .menu .btn
+
+{
+
+	float: left;
+
+	margin-right: 15px;
+
+	padding-left: 5px;
+
+	padding-right: 5px;
+
+	font-family: 'Open Sans', sans-serif;
+
+	font-weight: 400;
+
+	font-size: 14px;
+
+	line-height: 17px;
+
+	cursor: pointer;
+
+}
+
+.top .menu .btn:hover
+
+{
+
+	border-bottom: 1px solid #000;
+
+}
+
+
+
+.top .menu .btn:last-child
+
+{
+
+	border: 1px solid #000;
+
+	padding: 5px;
+
+	margin-right: 0;
+
+	margin-top: -6px;
+
+}
+
+.top .menu .btn:last-child:hover
+
+{
+
+	border: 1px solid #CCC;
+
+}
+
+
+
+.top .hamburger
+
+{
+
+	display: none;
+
+}
+
+
+
+.content
+
+{
+
+	width:100%;
+
+	padding-top: 70px;
+
+}
+
+
+
+.content .section
+
+{
+
+	width: 100%;
+
+	overflow: hidden;
+
+}
+
+
+
+.content .section h2
+
+{
+
+	font-family: "bebas_neueregular";
+
+    font-size: 42px;
+
+    font-weight: normal;
+
+    line-height: 44px;
+
+    margin-top: 50px;
+
+    text-align: center;
+
+    width: 90%;
+
+	margin-left: 5%;
+
+	margin-right: 5%;
+
+}
+
+
+
+.content .section h2 .dest
+
+{
+
+	background-color: #D2FF2E;
+
+}
+
+
+
+/*home*/
+
+.content .section.home
+
+{
+
+	background-image: url(../../images/general/loader.gif);
+
+	background-repeat: no-repeat;
+
+	background-size: auto;
+
+	background-position: center center;
+
+}
+
+
+
+.content .section.home .slide
+
+{
+
+	width: 100%;
+
+	background-size: cover;
+
+	background-position: center center;
+
+}
+
+
+
+.content .section.home .slide .arrow.left
+
+{
+
+	left: 25px;
+
+}
+
+
+
+.content .section.home .slide .arrow.right
+
+{
+
+	right: 25px;
+
+}
+
+
+
+/*casos*/
+
+
+
+.content .section.casos .txt
+
+{
+
+	float: left;
+
+	margin-bottom: 30px;
+
+	width: 100%;
+
+	overflow: hidden;
+
+}
+
+
+
+.content .section.casos .txt p
+
+{
+
+	color: #000;
+
+    float: left;
+
+    font-family: "Open Sans",sans-serif;
+
+    font-size: 20px;
+
+    line-height: 28px;
+
+    margin-top: 28px;
+
+    text-align: center;
+
+    width: 100%;
+
+}
+
+
+
+.content .section.casos .casos
+
+{
+
+	float: left;
+
+	width: 100%;
+
+	overflow: hidden;
+
+}
+
+.content .section.casos .casos .caso
+
+{
+
+	float: left;
+
+	width: 50%;
+
+	cursor: pointer;
+
+}
+
+.content .section.casos .casos .caso:hover
+
+{
+
+	opacity: .8;
+
+}
+
+
+
+/*trabajos*/
+
+
+
+.content .section.trabajos .txt
+
+{
+
+	float: left;
+
+	width: 100%;
+
+	overflow: hidden;
+
+}
+
+
+
+.content .section.trabajos .txt p
+
+{
+
+	color: #000;
+
+    float: left;
+
+    font-family: "Open Sans",sans-serif;
+
+    font-size: 20px;
+
+    line-height: 28px;
+
+    margin-top: 28px;
+
+	margin-bottom: 20px;
+
+    text-align: center;
+
+    width: 100%;
+
+}
+
+
+
+.content .section.trabajos .trabajos
+
+{
+
+	float: left;
+
+    margin-left: 24%;
+
+    overflow: hidden;
+
+    width: 52%;
+
+}
+
+
+
+.content .section.trabajos .trabajos .trabajo
+
+{
+
+	float: left;
+
+	margin-bottom: 6px;
+
+	width: calc(33.3% - 4px);
+
+	cursor: pointer;
+
+}
+
+.content .section.trabajos .trabajos .trabajo:hover
+
+{
+
+	opacity: .85;
+
+}
+
+.content .section.trabajos .trabajos .trabajo.c
+
+{
+
+	margin-left: 6px;
+
+	margin-right: 6px;
+
+}
+
+
+
+/*testimonios*/
+
+.content .section.testimonios
+
+{
+
+	background-color: #f1eef0;
+
+}
+
+
+
+.content .section.testimonios .slide_c
+
+{
+
+	position: absolute;
+
+	width: 100%;
+
+}
+
+
+
+.content .section.testimonios .slide_c .slide
+
+{
+
+	width: 100%;
+
+	overflow: hidden;
+
+}
+
+
+
+.content .section.testimonios .slide_c .slide .pic
+
+{
+
+	border-radius: 100%;
+
+    float: left;
+
+    height: 130px;
+
+    margin-bottom: 30px;
+
+    margin-left: calc(50% - 65px);
+
+    margin-right: calc(50% - 65px);
+
+    width: 130px;
+
+}
+
+
+
+.content .section.testimonios .slide_c .slide p
+
+{
+
+	float: left;
+
+    font-family: "Open Sans",sans-serif;
+
+    font-size: 16px;
+
+    font-weight: 400;
+
+    line-height: 23px;
+
+    margin-bottom: 20px;
+
+    margin-left: 33%;
+
+    margin-right: 33%;
+
+    text-align: center;
+
+    width: 34%;
+
+}
+
+
+
+.content .section.testimonios .slide_c .slide .autor
+
+{
+
+	font-weight: 700;
+
+}
+
+
+
+.content .section.testimonios .slide_c .slides .arrow
+
+{
+
+	position: absolute;
+
+	top: calc(50% - 15px);
+
+	cursor: pointer;
+
+}
+
+	
+
+.content .section.testimonios .slides .arrow.left
+
+{
+
+	left: 25px;
+
+}
+
+
+
+.content .section.testimonios .slides .arrow.right
+
+{
+
+	right: 25px;
+
+}
+
+
+
+/*blog*/
+
+.content .section.blog h2
+
+{
+
+	margin-bottom: 30px;
+
+}
+
+
+
+.content .section.blog .slide_c
+
+{
+
+	position: absolute;
+
+	width: 100%;
+
+}
+
+
+
+.content .section.blog .slide_c .slide
+
+{
+
+	width: 100%;
+
+	overflow: hidden;
+
+	cursor: pointer;
+
+}
+
+
+
+.content .section.blog .slide_c .slide .over
+
+{
+
+	position: absolute;
+
+	display: none;
+
+	width: 100%;
+
+	overflow: hidden;
+
+}
+
+
+
+.content .section.blog .slide_c .slide .over .background
+
+{
+
+	position: absolute;
+
+	width: 100%;
+
+	background-color: #000;
+
+	opacity: .65;
+
+	overflow: hidden;
+
+}
+
+
+
+.content .section.blog .slide_c .slide .over h3
+
+{
+
+	color: #d2ff2e;
+
+    font-family: "bebas_neueregular";
+
+    font-size: 52px;
+
+    font-weight: normal;
+
+    line-height: 56px;
+
+    position: absolute;
+
+    text-align: center;
+
+    width: 100%;
+
+}
+
+
+
+.content .section.blog .slide_c .slide .pic
+
+{
+
+	border-radius: 100%;
+
+    float: left;
+
+    height: 130px;
+
+    margin-bottom: 30px;
+
+    margin-left: calc(50% - 65px);
+
+    margin-right: calc(50% - 65px);
+
+    width: 130px;
+
+}
+
+
+
+.content .section.blog .slide_c .slide p
+
+{
+
+	float: left;
+
+	margin-left: 25%;
+
+	margin-right: 25%;
+
+	width: 50%;
+
+	font-family: 'Open Sans', sans-serif;
+
+	font-weight: 400;
+
+	font-size: 16px;
+
+	line-height: 20px;
+
+	margin-bottom: 20px;
+
+	text-align: center;
+
+}
+
+
+
+.content .section.blog .slide_c .slide .autor
+
+{
+
+	font-weight: 700;
+
+}
+
+
+
+.content .section.blog .slide_c .arrow
+
+{
+
+	position: absolute;
+
+	top: calc(50% - 15px);
+
+	cursor: pointer;
+
+}
+
+	
+
+.content .section.blog .slide_c .arrow.left
+
+{
+
+	left: 25px;
+
+}
+
+
+
+.content .section.blog .slide_c .arrow.right
+
+{
+
+	right: 25px;
+
+}
+
+
+
+/*clientes*/
+
+.content .section.clientes
+
+{
+
+	background-color: #000;
+
+}
+
+
+
+.content .section.clientes h2
+
+{
+
+	position: absolute;
+
+	color: #FFF;
+
+	margin-top: 110px;
+
+}
+
+
+
+.content .section.clientes .logos
+
+{
+
+	width: 70%;
+
+	margin-left: 15%;
+
+	margin-right: 15%;
+
+}
+
+
+
+.content .section.clientes .logos2
+
+{
+
+	display: none;
+
+}
+
+
+
+/*footer*/
+
+.footer
+
+{
+
+	width: 100%;
+
+	padding-top: 25px;
+
+	padding-bottom: 20px;
+
+	background-color: #F0EDEF;
+
+	overflow: hidden;
+
+}
+
+
+
+.footer .cols
+
+{
+
+	float: left;
+
+	margin-left: calc(50% - 480px);
+
+	width: 960px;
+
+	overflow: hidden;
+
+}
+
+
+
+.footer .cols .col
+
+{
+
+	float: left;
+
+}
+
+
+
+.footer .cols .col.a
+
+{
+
+	width: 18%;
+
+	margin-left: 2%;
+
+}
+
+
+
+.footer .cols .col.a a
+
+{
+
+	color: #000;
+
+	text-decoration: none;
+
+	float: left;
+
+	width: 100%;
+
+	font-family: 'Open Sans', sans-serif;
+
+	font-weight: 400;
+
+	font-size: 14px;
+
+	line-height: 14px;
+
+	margin-bottom: 20px;
+
+}
+
+.footer .cols .col.a a:hover
+
+{
+
+	text-decoration: underline;
+
+}
+
+
+
+.footer .cols .col.b
+
+{
+
+	width: 48%;
+
+	margin-left: 2%;
+
+}
+
+
+
+.footer .cols .col.b p
+
+{
+
+	color: #000;
+
+	text-decoration: none;
+
+	float: left;
+
+	width: 100%;
+
+	font-family: 'Open Sans', sans-serif;
+
+	font-weight: 400;
+
+	font-size: 13px;
+
+	line-height: 13px;
+
+	margin-bottom: 20px;
+
+}
+
+
+
+.footer .cols .col.c
+
+{
+
+	width: 30%;
+
+}
+
+.footer .cols .col.c a
+
+{
+
+	color: #000;
+
+	text-decoration: none;
+
+	float: left;
+
+	width: 100%;
+
+	font-family: 'Open Sans', sans-serif;
+
+	font-weight: 700;
+
+	font-size: 13px;
+
+	line-height: 13px;
+
+	margin-bottom: 20px;
+
+}
+
+.footer .cols .col.c a:hover
+
+{
+
+	text-decoration: underline;
+
+}
+
+
+
+.footer .cols .col.c .social .btn > a
+
+{
+
+	width: 100%;
+
+	height: 100%;
+
+	float: left;
+
+}
+
+
+
+.footer .cols .col.c p {
+
+    color: #000;
+
+    float: left;
+
+    font-family: "Open Sans",sans-serif;
+
+    font-size: 13px;
+
+    font-weight: 400;
+
+    line-height: 13px;
+
+    margin-bottom: 20px;
+
+    text-decoration: none;
+
+    width: 100%;
+
+}
+
+
+
+.footer .cols .col h3
+
+{
+
+	font-family: "Open Sans",sans-serif;
+
+    font-size: 16px;
+
+    font-weight: 400;
+
+    line-height: 16px;
+
+    margin-bottom: 40px;
+
+    margin-top: 20px;
+
+}
+
+
+
+.footer .cols .col.c .social
+
+{
+
+	float: left;
+
+	width: 100%;
+
+}
+
+
+
+.footer .cols .col.c .social .btn
+
+{
+
+	float: left;
+
+	margin-right: 10px;
+
+	width: 30px;
+
+	height: 30px;
+
+	background-repeat: no-repeat;
+
+	background-size: 100% 100%;
+
+	cursor: pointer;
+
+}
+
+.footer .cols .col.c .social .btn:hover
+
+{
+
+	opacity: .85;
+
+}
+
+
+
+.footer .cols .col.c .social .btn.in
+
+{
+
+	background-image: url(../../images/general/linkedin.png);
+
+}
+
+.footer .cols .col.c .social .btn.fb
+
+{
+
+	background-image: url(../../images/general/facebook.png);
+
+}
+
+.footer .cols .col.c .social .btn.pint
+
+{
+
+	background-image: url(../../images/general/pinterest.png);
+
+}
+
+
+
+@media all and (orientation: landscape)
+
+{
+
+	/*home*/
+
+	.content .section.home .slide .arrow
+
+	{
+
+		position: absolute;
+
+		top: calc(50% - 15px);
+
+		cursor: pointer;
+
+	}
+
+}
+
+
+
+@media (max-width: 1000px)
+
+{
+
+	.top .logo
+
+	{
+
+		margin-top: 15px;
+
+		height: 30px;
+
+	}
+
+	
+
+	.content .section.trabajos .trabajos
+
+	{
+
+		float: left;
+
+		margin-left: 18%;
+
+		overflow: hidden;
+
+		width: 64%;
+
+	}
+
+}
+
+
+
+@media (max-width: 940px)
+
+{
+
+	.top .menu
+
+	{
+
+		margin-right: 15px;
+
+		width: 552px;
+
+	}
+
+	
+
+	.top .menu .btn
+
+	{
+
+		font-size: 11px;
+
+	}
+
+}
+
+
+
+@media (max-width: 865px)
+
+{
+
+	.top .logo
+
+	{
+
+		margin-left: 15px;
+
+		margin-top: 20px;
+
+		height: 20px;
+
+	}
+
+	
+
+	.content .section.trabajos .trabajos
+
+	{
+
+		float: left;
+
+		margin-left: 15%;
+
+		overflow: hidden;
+
+		width: 70%;
+
+	}
+
+	
+
+	.content .section.testimonios .slide_c .slide p
+
+	{
+
+		margin-left: 15%;
+
+		margin-right: 15%;
+
+		width: 70%;
+
+	}
+
+	
+
+	.content .section.clientes .logos
+
+	{
+
+		width: 90%;
+
+		margin-left: 5%;
+
+		margin-right: 5%;
+
+		background: url('../../uploads/logos_mobile.png');
+
+	}
+
+}
+
+
+
+@media all and (orientation: portrait)
+
+{
+
+	/*top*/
+
+	.top .logo
+
+	{
+
+		float: left;
+
+		margin-left: 5%;
+
+		margin-top: 15px;
+
+		height: 30px;
+
+	}
+
+	.top .menu
+
+	{
+
+		display: none;
+
+		position: fixed;
+
+		margin: 0;
+
+		top: 70px;
+
+		width: 100%;
+
+		height: calc(100% - 70px);
+
+		background-color: #FFF;
+
+	}
+
+
+
+	.top .menu .btn
+
+	{
+
+		float: left;
+
+		margin-right: 0;
+
+		width: 100%;
+
+		padding: 0;
+
+		font-family: 'Open Sans', sans-serif;
+
+		font-weight: 400;
+
+		font-size: 18px;
+
+		line-height: 60px;
+
+		cursor: pointer;
+
+		border-bottom: 1px solid #555;
+
+	}
+
+	.top .menu .btn:last-child
+
+	{
+
+		border: 0;
+
+		padding: 0;
+
+		margin-right: 0;
+
+		border-bottom: 1px solid #555;
+
+		margin-top: 0;
+
+	}
+
+	.top .menu .btn:hover
+
+	{
+
+		font-weight: 700;
+
+		border-bottom: 1px solid #000;
+
+	}
+
+
+
+	.top .hamburger
+
+	{
+
+		display: block;
+
+		position: absolute;
+
+		top: 10px;
+
+		right: 5%;
+
+		width: 37.7px;
+
+		height: 50px;
+
+		background-image: url(../../images/general/hamburger.png);
+
+		background-size: 100% 200%;
+
+		background-position: top;
+
+		cursor: pointer;
+
+	}
+
+
+
+	.content .section h2
+
+	{
+
+		font-family: "bebas_neueregular";
+
+		font-size: 30px;
+
+		font-weight: normal;
+
+		line-height: 36px;
+
+		margin-top: 50px;
+
+		text-align: center;
+
+		width: 90%;
+
+		margin-left: 5%;
+
+		margin-right: 5%;
+
+	}
+
+
+
+	/*home*/
+
+	.content .section.home .slide .arrow
+
+	{
+
+		position: absolute;
+
+		bottom: 25px;
+
+		cursor: pointer;
+
+	}
+
+	
+
+	/*casos*/
+
+	.content .section.casos .casos .caso
+
+	{
+
+		width: 100%;
+
+	}
+
+	
+
+	/*trabajos*/
+
+	.content .section.trabajos .trabajos
+
+	{
+
+		float: left;
+
+		margin-top: 20px;
+
+		margin-left: 5%;
+
+		overflow: hidden;
+
+		width: 90%;
+
+	}
+
+	
+
+	/*testimonios*/
+
+	.content .section.testimonios .slide_c .slide .pic
+
+	{
+
+		border-radius: 100%;
+
+		float: left;
+
+		height: 100px;
+
+		margin-bottom: 30px;
+
+		margin-left: calc(50% - 50px);
+
+		margin-right: calc(50% - 50px);
+
+		width: 100px;
+
+	}
+
+
+
+	.content .section.testimonios .slide_c .slide p
+
+	{
+
+		font-size: 14px;
+
+		line-height: 18px;
+
+		margin-left: 15%;
+
+		margin-right: 15%;
+
+		width: 70%;
+
+	}
+
+	
+
+	/*blog*/
+
+	.content .section.blog .slide_c .slide .over h3
+
+	{
+
+		width: 70%;
+
+		margin-left: 15%;
+
+	}
+
+	
+
+	/*clientes*/
+
+	.content .section.clientes h2
+
+	{
+
+		position: relative;
+
+		margin-top: 50px;
+
+		margin-bottom: 50px;
+
+	}
+
+	.content .section.clientes .logos
+
+	{
+
+		display: none;
+
+	}
+
+
+
+	.content .section.clientes .logos2
+
+	{
+
+		display: block;
+
+		margin-left: 5%;
+
+		width: 90%;
+
+	}
+
+	
+
+	/*footer*/
+
+	.footer .cols
+
+	{
+
+		width: 100%;
+
+		margin: 0;
+
+	}
+
+	.footer .cols .col.a
+
+	{
+
+		width: 90%;
+
+		margin-left: 5%;
+
+	}
+
+	
+
+	.footer .cols .col.b
+
+	{
+
+		width: 90%;
+
+		margin-left: 5%;
+
+	}
+
+	
+
+	.footer .cols .col.c
+
+	{
+
+		width: 90%;
+
+		margin-left: 5%;
+
+	}
+
+}
+
